@@ -27,7 +27,7 @@ h1{
 margin-top: 20px;
 margin-bottom: 60px;
 text-align: center;
-font-size: 45px;
+font-size: 2.75em;
 font-weight: 900;
 font-family: Lato, sans-serif;
 }
@@ -39,7 +39,7 @@ margin: 0 auto;
 label {
 text-align: left;
 display: block;
-font-size: 20px;
+font-size: 1.8em;
 color: red;
 font-family: Roboto, sans-serif;
 
@@ -51,7 +51,7 @@ width: 100%;
 border: none;
 box-sizing: border-box;
 text-align: center;
-font-size: 25px;
+font-size: 2.2em;
 font-family: Lato, sans-serif;
 }
 
@@ -71,7 +71,7 @@ padding: 20px 20px;
 padding-left: 25%;
 border: none;
 box-sizing: border-box;
-font-size: 25px;
+font-size: 2.2em;
 font-family: Lato, sans-serif;
 background-color: white;
 }
@@ -83,7 +83,7 @@ padding: 12px 48px;
 border: none;
 text-decoration: none;
 cursor: pointer;
-font-size: 22px;
+font-size: 1.8em;
 font-family: Roboto, sans-serif;
 color: white;
 background-color: #e6011d;
@@ -108,11 +108,13 @@ box-shadow: 0 10px 35px #e6233d;
 @media all and (max-width: 699px){
   .div-distrito {
   width: 100%;
+  margin:10px 0 35px 0;
   display: block;
 }
 
 .div-idade {
 	width: 100%;
+	margin:10px 0 35px 0;
   display: block;
 }
 }
